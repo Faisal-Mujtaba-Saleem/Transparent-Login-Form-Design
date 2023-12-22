@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Yeon+Sung&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-h1 {
+    color: #f6a7f8;
+    border-bottom: 4px solid purple;
+    padding: 1rem 0.5rem;
+    margin: 1rem 0;
+    width: 14%;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    height: 40%;
+    align-items: end;
+    justify-content: space-evenly;
+}
+
+.input {
+    padding: 0.5% 5%;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+}
+
+.box {
+    height: 20%;
+    width: 75%;
+    border: 0;
+    border-bottom: 2px solid purple;
+    display: flex;
+    align-items: center;
+}
+
+.fa-icon {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btn {
+    color: #f6a7f8;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid purple;
+    border-radius: 10%;
+    padding: 2% 4%;
+    margin: 2rem 6rem;
+    font-size: 1rem;
+    align-self: flex-start;
+    font-weight: bold;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #f7a7f880;
+    border: 0;
+}
